@@ -1,0 +1,160 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HipotecaFormulario" >
+ 
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="10dp" >
+ 
+       <TextView
+           android:id="@+id/textViewFecha"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/agregar_fecha"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+       <EditText
+           android:id="@+id/editTextFecha"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textViewFecha"
+           android:ems="10" 
+           android:inputType="datetime"/>
+    
+<!-- ****************************************************************************** -->
+       <TextView
+           android:id="@+id/textViewActividad"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/agregar_actividad"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:layout_below="@+id/editTextFecha"
+           android:layout_marginTop="20dp" />
+       
+       <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewActividad"
+            android:entries="@array/arrayActividades"
+            android:prompt="@string/agregar_actividad" >
+        </Spinner>
+        <!-- 
+       <EditText
+           android:id="@+id/editViewActividad"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textViewActividad"
+           android:ems="10"
+           android:inputType="text">
+       </EditText>
+        -->
+       <!-- ****************************************************************************** -->
+        
+       <TextView
+           android:id="@+id/textViewDistancia"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/agregar_distancia"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:layout_below="@+id/spinner"
+           android:layout_marginTop="10dp" />
+        
+       <EditText
+           android:id="@+id/editViewDistancia"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textViewDistancia"
+           android:ems="10"
+           android:inputType="number"/>
+       
+       <!-- ****************************************************************************** -->
+        
+       <TextView
+           android:id="@+id/textViewTiempo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/agregar_tiempo"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:layout_below="@+id/editViewDistancia"
+           android:layout_marginTop="20dp" />
+        
+       <EditText
+           android:id="@+id/editViewTiempo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textViewTiempo"
+           android:ems="10"
+           android:inputType="number"/>
+       
+       <!-- ****************************************************************************** -->
+        
+       <TextView
+           android:id="@+id/textViewVelocidad"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/editViewTiempo"
+           android:layout_marginTop="20dp"
+           android:text="@string/agregar_velocidad"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+      <EditText
+           android:id="@+id/editViewVelocidad"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textViewVelocidad"
+           android:ems="10"
+           android:inputType="number"/>
+      
+      <!-- ****************************************************************************** -->
+ 
+      <TextView
+           android:id="@+id/textViewComentario"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/agregar_comentario"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:layout_below="@+id/editViewVelocidad"
+           android:layout_marginTop="20dp" />
+        
+       <EditText
+           android:id="@+id/editViewComentario"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textViewComentario"
+           android:ems="10"
+           android:inputType="textMultiLine"/>
+       
+       
+       <Button
+           android:id="@+id/BtnAceptar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/editViewComentario"
+           android:text="@string/agregar_agregarSesion"
+           android:paddingLeft="20dip"
+           android:paddingRight="20dip" />
+
+       
+       <TextView android:id="@+id/LblMensaje"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/BtnAceptar"
+           android:paddingLeft="10dip"
+           android:textStyle="bold" />
+       
+   </RelativeLayout>
+   
+
+
+</ScrollView>

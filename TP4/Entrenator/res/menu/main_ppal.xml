@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:id="@+id/MnuNuevo"
+        android:title="@string/opcion_Nuevo"
+        android:icon="@drawable/ok"/>
+  
+     <item android:id="@+id/MnuSalir"
+        android:title="@string/opcion_Salir"
+        android:icon="@drawable/no"/>
+     
+     <item
+        android:id="@+id/itemBotonAcerca"
+        android:title="@string/opcion_acerca"/>
+        
+</menu>

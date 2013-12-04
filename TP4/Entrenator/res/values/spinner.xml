@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- SPINNER OPCIONES -->
+    <string-array name="arrayActividades">
+       <item>Caminata</item>
+       <item>Correr</item>
+       <item>Ciclismo</item>
+       <item>Otro</item>
+   </string-array>
+    
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Entrenador</string>
+    <string name="action_settings">Settings</string>
+    <string name="principal">Sesiones Realizadas</string>
+
+    <!-- activity_agregar -->
+    <string name="agregar_fecha">Fecha</string>
+    <string name="agregar_actividad">Actividad</string>
+    <string name="agregar_distancia">Distancia</string>
+    <string name="agregar_tiempo">Tiempo</string>
+    <string name="agregar_velocidad">Velocidad</string>
+    <string name="agregar_comentario">Comentarios</string>
+    <string name="agregar_agregarSesion">Guardar</string>
+    <string name="boton_volver">Volver</string>
+
+    <!-- MENU DE OPCIONES -->
+    <string name="opcion_Nuevo">Nuevo</string>
+    <string name="opcion_Salir">Salir</string>
+    <string name="opcion_editar">Editar</string>
+    <string name="opcion_eliminar">Eliminar</string>
+    <string name="opcion_acerca">Acerca De..</string>
+    <string name="title_activity_frm_nuevo_registro">FrmNuevoRegistro</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
