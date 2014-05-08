@@ -80,7 +80,7 @@ public class FrmNuevoRegistro extends Activity {
         aa_actividades.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spActividades.setAdapter(aa_actividades);
         
-        
+         
         spActividades.setOnItemSelectedListener(new OnItemSelectedListener() {
             
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, 
@@ -158,7 +158,7 @@ public class FrmNuevoRegistro extends Activity {
 			db.close();
 			
 			lblMensaje.setTextColor(Color.GREEN);
-			lblMensaje.setText("Sesión Guardada !");
+			lblMensaje.setText("Sesiï¿½n Guardada !");
 			
 			finish();
 			
@@ -183,7 +183,7 @@ public class FrmNuevoRegistro extends Activity {
 			db.close();
 			
 			lblMensaje.setTextColor(Color.GREEN);
-			lblMensaje.setText("Sesión Actualizada !");
+			lblMensaje.setText("Sesiï¿½n Actualizada !");
 
 			finish();
 
